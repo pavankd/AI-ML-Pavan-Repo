@@ -47,4 +47,9 @@ emp_2 = Employee('pavan', 'kumar', 'pavand@sysintell.com', 60000)
 print(Employee.num_of_emps)
 print(emp_1.num_of_emps)
 print(emp_2.num_of_emps)
+emp_1.num_of_emps = 10
+
+print(Employee.num_of_emps)
+print(emp_1.num_of_emps)
+print(emp_2.num_of_emps)
 
